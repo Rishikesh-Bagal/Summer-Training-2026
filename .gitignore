@@ -1,0 +1,4 @@
+node_modules/
+.env
+triage.db
+*.db

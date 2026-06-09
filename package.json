@@ -1,0 +1,26 @@
+{
+  "name": "5.02_ai_customer_support_triage",
+  "version": "1.0.0",
+  "description": "A Node.js backend that automates support ticket triage using a single Claude API call per batch. Classifies tickets by category, priority, and team, persists results to SQLite, and exposes a human feedback loop with per-category accuracy reporting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rishikesh-Bagal/Summer-Training-2026.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Rishikesh-Bagal/Summer-Training-2026/issues"
+  },
+  "homepage": "https://github.com/Rishikesh-Bagal/Summer-Training-2026#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.102.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}

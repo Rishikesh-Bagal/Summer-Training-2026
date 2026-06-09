@@ -1,0 +1,79 @@
+{
+  "generated_at": "2026-06-09T07:30:00.000Z",
+  "total_feedback_submissions": 10,
+  "category_feedback_count": 10,
+  "overall_category_accuracy_pct": 80,
+  "worst_category": {
+    "name": "account",
+    "accuracy_pct": 67
+  },
+  "category_accuracy": {
+    "billing": {
+      "total_samples": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100,
+      "misclassified_as": {}
+    },
+    "technical": {
+      "total_samples": 4,
+      "correct": 3,
+      "incorrect": 1,
+      "accuracy_pct": 75,
+      "misclassified_as": { "other": 1 }
+    },
+    "account": {
+      "total_samples": 3,
+      "correct": 2,
+      "incorrect": 1,
+      "accuracy_pct": 67,
+      "misclassified_as": { "technical": 1 }
+    }
+  },
+  "priority_accuracy": {
+    "high": {
+      "total_samples": 5,
+      "correct": 4,
+      "incorrect": 1,
+      "accuracy_pct": 80,
+      "misclassified_as": { "medium": 1 }
+    },
+    "medium": {
+      "total_samples": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100,
+      "misclassified_as": {}
+    },
+    "critical": {
+      "total_samples": 2,
+      "correct": 2,
+      "incorrect": 0,
+      "accuracy_pct": 100,
+      "misclassified_as": {}
+    }
+  },
+  "team_accuracy": {
+    "engineering": {
+      "total_samples": 4,
+      "correct": 4,
+      "incorrect": 0,
+      "accuracy_pct": 100,
+      "misclassified_as": {}
+    },
+    "billing_team": {
+      "total_samples": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100,
+      "misclassified_as": {}
+    },
+    "account_management": {
+      "total_samples": 3,
+      "correct": 2,
+      "incorrect": 1,
+      "accuracy_pct": 67,
+      "misclassified_as": { "support": 1 }
+    }
+  }
+}
